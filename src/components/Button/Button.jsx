@@ -23,6 +23,8 @@ export const Button = (
       // colors
       [styles.buttonBlack]: color === "black",
       [styles.buttonWhite]: color === "white",
+      [styles.buttonGlass]: color === "glass",
+      [styles.buttonOutline]: color === "outline",
       // disabled
       [styles.buttonDisabled]: disabled,
     },

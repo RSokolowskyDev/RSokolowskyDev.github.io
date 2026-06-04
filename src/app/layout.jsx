@@ -1,4 +1,4 @@
-import {Roboto} from 'next/font/google';
+import { Roboto, Orbitron } from 'next/font/google';
 import './globals.css';
 
 const roboto = Roboto({
@@ -8,9 +8,16 @@ const roboto = Roboto({
   display: 'swap',
 });
 
+const orbitron = Orbitron({
+  weight: ['400', '700', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-orbitron',
+});
+
 export default function RootLayout({children}) {
   return (
-    <html lang="en">
+    <html lang="en" className={orbitron.variable}>
     <body className={roboto.className}>{children}</body>
     </html>
   )
