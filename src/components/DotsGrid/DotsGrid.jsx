@@ -40,7 +40,8 @@ export const DotsGrid = ({
       const dotPx  = parseFloat(style.fontSize);
       const gapPx  = dotPx * 2;
       const contW  = container.clientWidth;
-      const contH  = container.clientHeight;
+      const contH = document.body.scrollHeight;
+
 
       const cols  = Math.floor((contW + gapPx) / (dotPx + gapPx));
       const rows  = Math.floor((contH + gapPx) / (dotPx + gapPx));

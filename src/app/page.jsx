@@ -25,15 +25,15 @@ export default function Home() {
 
       <div className="relative z-10 grid grid-cols-1 gap-10 w-full max-w-6xl mx-auto">
 
-        <div className="flex flex-col gap-4 bg-zinc-850/60 backdrop-blur-[2px] rounded-2xl p-8 border-[3px] border-[#F2360C]/5">
+        <div className="flex flex-col gap-4 bg-zinc-850/60 backdrop-blur-[4px] rounded-2xl p-8 border-[3px] border-[#F2360C]/5">
           <span className="text-zinc-200 text-xs tracking-[0.4em] uppercase">
             AI Solutions <span className="text-[#BF0413] font-bold text-4xl leading-[0] relative top-[8px]">·</span> Automation Engineer <span className="text-[#F2360C] font-bold text-4xl leading-[0] relative top-[8px]">·</span> Draper, UT
           </span>
           <h1 className="leading-none" style={{ fontFamily: 'var(--font-orbitron)' }}>
-            <span className="block text-white text-8xl font-black">RYAN</span>
-            <span className="block text-zinc-400 text-7xl font-black">SOKOLOWSKY</span>
+            <span className="block text-white text-7xl font-black">RYAN</span>
+            <span className="block text-zinc-400 text-6xl font-black">SOKOLOWSKY</span>
           </h1>
-          <p className="text-zinc-200 text-sm leading-relaxed max-w-xs tracking-[0.2em] uppercase">
+          <p className="text-zinc-200 text-sm leading-relaxed tracking-[0.2em] uppercase">
             <span className="text-[#F2360C] font-bold">AI Solutions Engineer / Software Engineering Student </span>at Ensign College bridging the gap between advanced technical architecture and high-impact business operations. Passionate about leveraging AI to drive innovation, efficiency, and <span className="text-[#F27329] font-bold">automation</span> in real-world applications.
           </p>
           <div className="flex gap-3">
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-center bg-zinc-850/60 backdrop-blur-[4px] rounded-2xl border-[3px] border-[#F2360C]/5 overflow-hidden">
+        <div className="flex items-center bg-zinc-850/60 backdrop-blur-[5px] rounded-2xl border-[3px] border-[#F2360C]/5 overflow-hidden">
           <Terminal
             commands={commands}
             placeholder="Enter a command..."
