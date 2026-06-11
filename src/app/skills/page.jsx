@@ -1,11 +1,11 @@
 import SkillsCanvas from '@/components/SkillsCanvas/SkillsCanvas';
 
 export const metadata = {
-  title: 'Portfolio - Uses',
+  title: 'Portfolio - Skills',
   description: 'Tech stack and tools I use.',
 }
 
-export default function Uses() {
+export default function Skills() {
   return (
     <div className="min-h-screen flex items-center pt-24 px-12 pb-12">
       <div className="grid grid-cols-1 gap-10 w-full max-w-6xl mx-auto">

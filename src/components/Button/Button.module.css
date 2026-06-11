@@ -1,6 +1,6 @@
 /* basic */
 .button {
-  @apply font-bold uppercase outline-none px-4 py-2;
+  @apply font-bold uppercase outline-none px-4 h-8 flex items-center;
 }
 
 /* colors */

@@ -26,11 +26,11 @@ export default function Projects() {
                 <span className="block text-zinc-900 dark:text-white text-6xl font-black">PROJECTS</span>
               </h1>
               <div className="mb-6">
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-5">
+                  <Button href="https://rsokolowskydev.github.io/mark-miller-agent/" target="_blank" rel="noopener noreferrer"color="outline" customClasses="backdrop-blur-md">See the Project Here</Button>
                   <h2 className="text-zinc-700 dark:text-zinc-300 text-2xl font-bold tracking-[0.2em] uppercase">
                   Subaru Lead Classification Demo
                   </h2>
-                  <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" color="outline" customClasses="backdrop-blur-md">See the Project Here</Button>
                 </div>
                 <p className="mt-3 text-zinc-600 dark:text-zinc-200 text-xs leading-relaxed tracking-[0.2em] uppercase max-w-2xl">
                   <span className="text-[#BF0413] font-bold text-4xl leading-[0] relative top-[8px]">·</span>
@@ -38,11 +38,11 @@ export default function Projects() {
                 </p>
               </div>
               <div className="mb-6">
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-5">
+                  <Button href="https://github.com/RSokolowskyDev/Glassbox/" target="_blank" rel="noopener noreferrer" color="outline" customClasses="backdrop-blur-md">GitHub Repository</Button>
                   <h2 className="text-zinc-700 dark:text-zinc-300 text-2xl font-bold tracking-[0.2em] uppercase">
                   Semantic Vector Layer for LLMs
                   </h2>
-                  <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" color="outline" customClasses="backdrop-blur-md">LinkedIn</Button>
                 </div>
                 <p className="mt-3 text-zinc-600 dark:text-zinc-200 text-xs leading-relaxed tracking-[0.2em] uppercase max-w-2xl">
                   <span className="text-[#BF0413] font-bold text-4xl leading-[0] relative top-[8px]">·</span>
@@ -50,22 +50,22 @@ export default function Projects() {
                 </p>
               </div>
               <div className="mb-6">
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-5">
+                  <Button href="https://github.com/RSokolowskyDev/ai-router" target="_blank" rel="noopener noreferrer" color="outline" customClasses="backdrop-blur-md">GitHub Repository</Button>
                   <h2 className="text-zinc-700 dark:text-zinc-300 text-2xl font-bold tracking-[0.2em] uppercase">
                     AI Token Optimization & Workflow Engine
                   </h2>
-                  <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" color="outline" customClasses="backdrop-blur-md">LinkedIn</Button>
                 </div>
                 <p className="mt-3 text-zinc-600 dark:text-zinc-200 text-xs leading-relaxed tracking-[0.2em] uppercase max-w-2xl">
                   <span className="text-[#BF0413] font-bold text-4xl leading-[0] relative top-[8px]">·</span>
                   Created a Python-based orchestration system utilizing dual-model validation logic to reduce LLM API token consumption by <span className="text-[#F27329] font-bold">32%</span> and minimize output hallucinations</p>
               </div>
               <div>
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-5">
                   <h2 className="text-zinc-700 dark:text-zinc-300 text-2xl font-bold tracking-[0.2em] uppercase">
                     Automated Video Asset Synthesis Pipeline
                   </h2>
-                  <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" color="outline" customClasses="backdrop-blur-md">LinkedIn</Button>
+                  
                 </div>
                 <p className="mt-3 text-zinc-600 dark:text-zinc-200 text-xs leading-relaxed tracking-[0.2em] uppercase max-w-2xl">
                   <span className="text-[#BF0413] font-bold text-4xl leading-[0] relative top-[8px]">·</span>

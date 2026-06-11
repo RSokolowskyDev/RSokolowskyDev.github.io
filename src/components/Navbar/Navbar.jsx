@@ -4,7 +4,7 @@ const NAV_OPTIONS = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
   {path: '/projects', label: 'Projects' },
-  { path: '/uses', label: 'Uses' },
+  { path: '/skills', label: 'Skills' },
   { path: '/contact', label: 'Contact' }
 ];
 

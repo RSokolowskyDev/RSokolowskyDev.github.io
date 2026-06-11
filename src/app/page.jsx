@@ -7,10 +7,10 @@ export const metadata = {
 }
 
 const commands = [
-  { command: "/help", type: "info", description: "Available commands: /about, /projects, /uses, /whoami, /theme, /clear" },
+  { command: "/help", type: "info", description: "Available commands: /about, /projects, /skills, /whoami, /theme, /clear" },
   { command: "/about", type: "path", path: "/about", description: "Learn more about me" },
   { command: "/projects", type: "path", path: "/projects", description: "View my projects and experience" },
-  { command: "/uses", type: "path", path: "/uses", description: "See my tech stack and tools I use" },
+  { command: "/skills", type: "path", path: "/skills", description: "See my tech stack and tools I use" },
   { command: "/whoami", type: "info", description: "I am an AI Solutions Engineer and Software Engineering student bridging the gap between technical development and commercial strategy to optimize business performance. I specialize in architecting scalable Python pipelines, cost-saving LLM orchestration, and 3D semantic vector spaces that turn complex code into measurable growth." },
   { command: "/theme", type: "theme", description: "Toggle dark/light mode" },
   { command: "/clear", type: "clear", description: "Clear terminal" },
@@ -32,8 +32,8 @@ export default function Home() {
             <span className="text-[#F2360C] font-bold">AI Solutions Engineer / Software Engineering Student </span>at Ensign College bridging the gap between advanced technical architecture and high-impact business operations. Passionate about leveraging AI to drive innovation, efficiency, and <span className="text-[#F27329] font-bold">automation</span> in real-world applications.
           </p>
           <div className="flex gap-3">
-            <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" color="outline" customClasses="backdrop-blur-md">LinkedIn</Button>
-            <Button href="https://github.com/RSokolowskyDev" color="outline" customClasses="backdrop-blur-md">GitHub</Button>
+            <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" target="_blank" rel="noopener noreferrer" color="outline" customClasses="backdrop-blur-md">LinkedIn</Button>
+            <Button href="https://github.com/RSokolowskyDev" target="_blank" rel="noopener noreferrer" color="outline" customClasses="backdrop-blur-md">GitHub</Button>
           </div>
         </div>
 
