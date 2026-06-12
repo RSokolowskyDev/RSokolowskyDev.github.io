@@ -29,7 +29,7 @@ export default function Home() {
             <span className="block text-zinc-500 dark:text-zinc-400 text-6xl font-black">SOKOLOWSKY</span>
           </h1>
           <p className="text-zinc-700 dark:text-zinc-200 text-sm leading-relaxed tracking-[0.2em] uppercase">
-            <span className="text-[#F2360C] font-bold">AI Solutions Engineer / Software Engineering Student </span>at Ensign College bridging the gap between advanced technical architecture and high-impact business operations. Passionate about leveraging AI to drive innovation, efficiency, and <span className="text-[#F27329] font-bold">automation</span> in real-world applications.
+            <span className="text-[#F2360C] font-bold text-lg">AI Solutions Engineer / Software Engineering Student </span>at Ensign College bridging the gap between advanced technical architecture and high-impact business operations. Passionate about leveraging AI to drive innovation, efficiency, and <span className="text-[#F27329] font-bold text-lg">automation</span> in real-world applications.
           </p>
           <div className="flex gap-3">
             <Button href="https://www.linkedin.com/in/ryan-sokolowsky/" target="_blank" rel="noopener noreferrer" color="outline" customClasses="backdrop-blur-md">LinkedIn</Button>

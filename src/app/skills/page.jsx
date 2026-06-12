@@ -17,7 +17,7 @@ export default function Skills() {
             <span className="block text-zinc-500 dark:text-zinc-400 text-6xl font-black">STACK</span>
           </h1>
           <p className="text-zinc-700 dark:text-zinc-200 text-sm leading-relaxed tracking-[0.2em] uppercase">
-            The tools, languages, and frameworks at the core of my work — from LLM orchestration to cloud infrastructure.
+            The tools, languages, and frameworks at the core of my work, from <span className="text-[#F2360C] text-lg font-bold">LLM orchestration</span> to <span className="text-[#F27329] text-lg font-bold">cloud infrastructure</span>.
           </p>
         </div>
         <SkillsCanvas />
