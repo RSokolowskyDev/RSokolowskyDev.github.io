@@ -51,7 +51,7 @@ export default function About() {
                 </h2>
                 <p className="text-zinc-600 dark:text-zinc-200 text-xs leading-relaxed tracking-[0.2em] uppercase max-w-2xl">
                   <span className="text-[#F2360C] font-bold text-4xl leading-[0] relative top-[8px]">·</span>
-                  Architected an automated AI feedback loop utilizing ChatGPT to optimize targeting and ad creative, reducing cost-per-conversion to $4,000, outperforming organization's premium benchmark of $10,000 by <span className="text-[#F27329] text-lg font-bold">60%</span></p>
+                  Architected an automated AI feedback loop utilizing ChatGPT to optimize targeting and ad creative, reducing cost-per-conversion to $4,000, outperforming organization&apos;s premium benchmark of $10,000 by <span className="text-[#F27329] text-lg font-bold">60%</span></p>
                 <p className="text-zinc-600 dark:text-zinc-200 text-xs leading-relaxed tracking-[0.2em] uppercase max-w-2xl">
                   <span className="text-[#BF0413] font-bold text-4xl leading-[0] relative top-[8px]">·</span>
                   Deployed generative AI tools to conduct market research and scale dynamic A/B testing variations, utilizing cross-cultural data segmentation to align campaigns with distinct Spanish-speaking demographics and expand weekly engagement by <span className="text-[#F2360C] text-lg font-bold">35%</span></p>
